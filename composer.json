@@ -1,0 +1,21 @@
+{
+    "name": "htl3r/superflagbowl",
+    "description": "php Uebung",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Elisabeth Melaku",
+            "email": "4138@htl.rennweg.at"
+        }
+    ],
+    "repositories":[
+        {
+            "url": "https://github.com/SabrinaNovak/Flags",
+            "type": "vcs"
+        }],
+
+    "require": {
+        "novak/flagpackage": "^1.1"
+    }
+    
+}
