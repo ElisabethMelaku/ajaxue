@@ -15,7 +15,7 @@
         }],
 
     "require": {
-        "novak/flagpackage": "^1.1"
+        "novak/flagpackage": "dev-master"
     }
     
 }
