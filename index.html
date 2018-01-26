@@ -6,5 +6,21 @@
 </head>
 <body>
 
+
+<script type="text/javascript">
+    fetch("flags.php").then(
+        function(abc){
+            return abc.json();
+        }
+    ).then(
+        function(objectjson){
+            objectjson.forEach(function (flagge) {
+                document.body.innerText+=flagge.name;
+            })
+        }
+    )
+
+
+</script>
 </body>
 </html>
