@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b1ff51161e3f27451d23c658f7ccd565",
+    "packages": [
+        {
+            "name": "novak/flagpackage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SabrinaNovak/Flags.git",
+                "reference": "63ba5ba46ebd254f50036bbebb46add174e7749b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SabrinaNovak/Flags/zipball/63ba5ba46ebd254f50036bbebb46add174e7749b",
+                "reference": "63ba5ba46ebd254f50036bbebb46add174e7749b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HTL3R\\Flags\\": "src/HTL3R/Flags/"
+                }
+            },
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Sabrina Novak",
+                    "email": "nosabrina@icloud.com"
+                }
+            ],
+            "description": "4AI Flagpackage for use with the 4AI Demo",
+            "support": {
+                "source": "https://github.com/SabrinaNovak/Flags/tree/master",
+                "issues": "https://github.com/SabrinaNovak/Flags/issues"
+            },
+            "time": "2017-12-18T18:40:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "novak/flagpackage": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
