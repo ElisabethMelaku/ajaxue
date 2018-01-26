@@ -37,10 +37,6 @@ $a = array(
     Objektumwandeln($flage3)
 );
 
-header('Content-Type: application/json');
-
-echo json_encode($a);
-
 function Objektumwandeln($flag ){
     $obj = [];
     $obj["name"] = $flag->getName();
@@ -51,4 +47,13 @@ function Objektumwandeln($flag ){
 
     return $obj;
 }
+
+if (isset($_GET["type"]) && $_GET["type"]=="json"){
+    header('Content-Type: application/json');
+    echo json_encode($a);
+}else{
+//    typo3fluid kommt hier her
+}
+
+
 
